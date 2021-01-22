@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Coffee Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">COFFEE STORE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Coffee</a>
+                            <a class="dropdown-item" href="#">Cold Coffee</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/image2.jpg" alt="Coffee" width="1000" height="500">
+                <div class="carousel-caption">
+                    <h3>Coffee Time</h3>
+                    <p>The test you will never forget</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/image5.jpg" alt="Coffee" width="1000" height="500">
+                <div class="carousel-caption">
+                    <h3>Coffee Time</h3>
+                    <p>The test you will never forget</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/image4.jpg" alt="Coffee" width="1000" height="500">
+                <div class="carousel-caption">
+                    <h3>Coffee Time</h3>
+                    <p>The test you will never forget</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="container-fluid">
+        <h1 class="text-center mt-5">About Us</h1>
+        <hr class="mb-5">
+        <div class="row mt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="Images/image1.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h1>Who we are?</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non et similique vitae veritatis?
+                    Reiciendis vitae fugiat accusantium ipsum, deleniti, saepe et quod officiis quos perspiciatis
+                    asperiores libero, voluptatem repellendus. Illum?
+                    Ex aut consequatur, totam dolorum quia quae dicta aliquid modi eum minus odio facilis nam quis hic
+                    quod rerum suscipit obcaecati maiores et ducimus ratione saepe repellendus. Ullam, ipsa ea.
+                    Ipsum nisi, minima distinctio neque similique asperiores commodi quae repudiandae quisquam hic et
+                    laborum, aspernatur modi, earum nesciunt rerum fuga quia. Quaerat voluptates reprehenderit
+
+                    Sint, cumque repudiandae. Culpa deleniti inventore quos unde ea quidem, consectetur fuga ducimus
+                    nihil eaque,amet vel ut tenetur velit dicta veritatis qui? Expedita laboriosam a odio dolor magni
+                    molestiae amet soluta, reprehenderit reiciendis delectus repellendus. Temporibus.
+                </p>
+                <button class="btn bg-primary text-white">
+                    Wanna Know us
+                </button>
+
+
+            </div>
+        </div>
+    </div>"
+
+    <div class="container">
+        <h1 class="text-center mt-5">Services</h1>
+        <hr class="mb-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Images/image1.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                   
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Images/image1.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                   
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Images/image1.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+                
+
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
